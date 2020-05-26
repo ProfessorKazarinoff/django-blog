@@ -1,0 +1,16 @@
+<!-- templates/base.html -->
+
+<html>
+    <head>
+        <title>Blog</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="{% url 'home' %}">blog</a></h1>
+        </header>
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+</html>
