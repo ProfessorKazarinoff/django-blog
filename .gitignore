@@ -220,7 +220,7 @@ fabric.properties
 # Markdown Navigator plugin
 .idea/**/markdown-navigator.xml
 .idea/**/markdown-navigator/
-
+.idea/
 ### Python ###
 # Byte-compiled / optimized / DLL files
 
@@ -281,3 +281,6 @@ fabric.properties
 .history
 
 # End of https://www.gitignore.io/api/django,python,pycharm,jupyternotebooks,visualstudiocode
+
+# Django local sqlite database
+db.sqlite3
