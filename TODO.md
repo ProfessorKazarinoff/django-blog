@@ -1,9 +1,10 @@
 # TODO
 
-[ ] BlogDetailPage
-[ ] BlogCreatePage
-[ ] BlogUpdatePage
-[ ] BlogDeletePage
+[x] PostListPage
+[ ] PostDetailPage
+[ ] PostCreatePage
+[ ] PostUpdatePage
+[ ] PostDeletePage
 
 [ ] Bootstrap
 
