@@ -1,21 +1,19 @@
 # TODO
 
-- [ ] Open a pull request
+- [x] PostListPage
+- [x] PostDetailPage
+- [x] PostCreatePage
+- [x] PostUpdatePage
+- [x] PostDeletePage
 
-[x] PostListPage
-[x] PostDetailPage
-[x] PostCreatePage
-[x] PostUpdatePage
-[x] PostDeletePage
+- [ ] Bootstrap
+- [ ] Header with new post link
 
-[ ] Bootstrap
-[ ] Header with new post link
+- [ ] Custom User Model
+- [ ] Google OAuth
 
-[ ] Custom User Model
-[ ] Google OAuth
+- [ ] Images on posts
+- [ ] Upload images
 
-[ ] Images on posts
-[ ] Upload images
-
-[ ] Security Checklist
-[ ] Deploy
+- [ ] Security Checklist
+- [ ] Deploy
