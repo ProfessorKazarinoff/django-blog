@@ -12,11 +12,15 @@
 - [x] Header with SignUp and Login Link
 - [ ] Post listing as bootstrap cards
 - [ ] Footer with subscribe link
+- [x] Footer with copyrwrite and author
 - [x] Django crispy forms
 
 ## Users
 - [x] Custom User Model
 - [ ] Signup Functionality Working
+- [ ] Password change
+- [ ] Password reset
+- [ ] Password forget email functionality
 - [ ] Logged in shown in menu bar
 - [ ] New post link shown when logged in
 - [ ] Auto-author based one logged-in user

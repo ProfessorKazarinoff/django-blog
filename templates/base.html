@@ -1,4 +1,7 @@
 <!-- templates/base.html -->
+
+{% load static %}
+
 <!doctype html>
 <html lang="en">
     {% block head %}
@@ -14,6 +17,11 @@
             {% endblock content %}
             </div>
         </main>
+
+        {% block footer %}
+            {% include "footer.html" %}
+        {% endblock footer %}
+
         {% block javascripts %}
             {% include "javascripts.html" %}
         {% endblock javascripts %}

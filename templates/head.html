@@ -1,4 +1,6 @@
 <!-- templates/head.html -->
+{% load static %}
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,6 +9,8 @@
     {% block css %}
         <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="{% static 'css/footer.css' %}" rel="stylesheet">
+        <link href="{% static 'css/subscribe.css' %}" rel="stylesheet">
     {% endblock css %}
     {% block title %}
         <title>Blog</title>

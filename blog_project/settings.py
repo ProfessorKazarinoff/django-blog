@@ -133,3 +133,6 @@ LOGOUT_REDIRECT_URL = "home"
 
 # crispy forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# css and javascript locations
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
