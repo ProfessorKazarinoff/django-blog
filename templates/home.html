@@ -3,15 +3,27 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h2>Posts</h2>
-    <ul>
+    <div class="container masthead">
+        <h1 itemprop="name" content="This is my blog">
+        <a href="/" class="logo">
+            This <span>is</span> my <span>blog</span>
+        </a>
+        </h1>
+        <h5>Stories about me and what I do</h5>
+    </div>
+
+    <div> 
+        <h2>Posts</h2>
+    </div>
+    
+    <div>
         {% for post in object_list %}
             <div class="post-entry">
             <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
             <p>{{ post.body }}</p>
             </div>
         {% endfor %}
-    </ul>
+    </div>
 
     {% block subscribe %}
     {% endblock subscribe %}

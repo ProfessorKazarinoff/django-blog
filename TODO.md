@@ -10,14 +10,15 @@
 ## Styling
 - [x] Bootstrap
 - [x] Header with SignUp and Login Link
-- [ ] Post listing as bootstrap cards
+- [x] Post listing as bootstrap cards
 - [ ] Footer with subscribe link
 - [x] Footer with copyrwrite and author
 - [x] Django crispy forms
+- [x] About in top nav bar
 
 ## Users
 - [x] Custom User Model
-- [ ] Signup Functionality Working
+- [x] Signup Functionality Working
 - [ ] Password change
 - [ ] Password reset
 - [ ] Password forget email functionality
@@ -39,7 +40,8 @@
 - [ ] Markdown in post creation form, and render in template
 
 ## Images
-- [ ] Images on posts
+- [ ] Small image in post summary on post list page
+- [ ] Images in posts
 - [ ] Upload images
 
 ## Deployment

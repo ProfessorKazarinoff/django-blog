@@ -4,12 +4,20 @@
 
 {% block content %}
     <h2>Posts</h2>
-    <ul>
         {% for post in object_list %}
-            <div class="post-entry">
-            <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
-            <p>{{ post.body }}</p>
+            <div class="card">
+                <div class="card-header">
+                    <span class="font-weight-bold"><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></span> &middot;
+                    <span class="text-muted">by {{ post.author }} | {{ post.date|date:"M d, Y" }}</span>
+                </div>
+                <div class="card-body">
+                    <p>{{ post.summary }}</p>
+                </div>
+                <div class="card-footer text-center text-muted">
+                    <a href="{% url 'post_edit' post.pk %}">Edit</a> | <a href="{% url 'post_delete' post.pk %}">Delete</a>
+                </div>
             </div>
-        {% endfor %}
-    </ul>
-{% endblock %}
+        </br>
+            {% endfor %}
+
+{% endblock content %}

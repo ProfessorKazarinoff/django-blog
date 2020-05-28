@@ -20,6 +20,7 @@ class PostUpdateView(UpdateView):
     model = Post
     fields = (
         "title",
+        "summary",
         "body",
     )
     template_name = "post_edit.html"
@@ -34,4 +35,4 @@ class PostDeleteView(DeleteView):
 class PostCreateView(CreateView):
     model = Post
     template_name = "post_new.html"
-    fields = ("title", "body", "author")
+    fields = ("title","summary","body","author")

@@ -9,11 +9,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{% url 'post_list' %}">Posts</a>
                 </li>
+            </ul>    
                 <form class="form-inline my-2 my-lg-0" action="/search/" method="get">
                 <input class="form-control mr-sm-2" name="q" type="search" placeholder="Search..." aria-label="Search">
-            </ul>
+            
                 <a class="p-2 text-dark" href="{% url 'login' %}">Log In</a>
                 <a class="btn btn-outline-primary" href="{% url 'signup' %}">Sign Up</a>
                 </form>
