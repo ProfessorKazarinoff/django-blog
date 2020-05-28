@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     "pages.apps.PagesConfig",
     "blog.apps.BlogConfig",
     "users.apps.UsersConfig",
+    
+    # 3rd party
+    "crispy_forms",
+    
     # django
     "django.contrib.admin",
     "django.contrib.auth",
@@ -126,3 +130,6 @@ AUTH_USER_MODEL = "users.CustomUser"
 # login/logout redirect
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
+
+# crispy forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
