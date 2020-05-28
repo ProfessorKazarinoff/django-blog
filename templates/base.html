@@ -1,16 +1,21 @@
 <!-- templates/base.html -->
-
-<html>
-    <head>
-        <title>Blog</title>
-    </head>
+<!doctype html>
+<html lang="en">
+    {% block head %}
+        {% include "head.html" %}
+    {% endblock head %}
     <body>
-        <header>
-            <h1><a href="{% url 'home' %}">blog</a></h1>
-        </header>
-        <div>
+        {% block nav %}
+            {% include "nav.html" %}
+        {% endblock nav %}
+        <main role="main" class="container">
+            <div>
             {% block content %}
             {% endblock content %}
-        </div>
+            </div>
+        </main>
+        {% block javascripts %}
+            {% include "javascripts.html" %}
+        {% endblock javascripts %}
     </body>
 </html>
