@@ -8,12 +8,30 @@
 - [x] PostDeletePage
 
 ## Styling
-- [ ] Bootstrap
-- [ ] Header with new post link
+- [x] Bootstrap
+- [x] Header with SignUp and Login Link
+- [ ] Post listing as bootstrap cards
+- [ ] Footer with subscribe link
+- [ ] Django crispy forms
 
 ## Users
-- [ ] Custom User Model
+- [x] Custom User Model
+- [ ] Signup Functionality Working
+- [ ] Logged in shown in menu bar
+- [ ] New post link shown when logged in
 - [ ] Google OAuth
+
+## Subscribe
+- [ ] Make subscribe process work
+
+## SiteMap
+- [ ] Build in auto-generated xml sitemap feature
+
+## Favicon
+- [ ] Add favicon
+
+## Post Writing
+- [ ] Markdown in post creation form, and render in template
 
 ## Images
 - [ ] Images on posts
