@@ -35,4 +35,4 @@ class PostDeleteView(DeleteView):
 class PostCreateView(CreateView):
     model = Post
     template_name = "post_new.html"
-    fields = ("title","summary","body","author")
+    fields = ("title", "summary", "body", "author")

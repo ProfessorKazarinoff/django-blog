@@ -37,10 +37,8 @@ INSTALLED_APPS = [
     "pages.apps.PagesConfig",
     "blog.apps.BlogConfig",
     "users.apps.UsersConfig",
-    
     # 3rd party
     "crispy_forms",
-    
     # django
     "django.contrib.admin",
     "django.contrib.auth",
@@ -132,7 +130,7 @@ LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
 
 # crispy forms
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 # css and javascript locations
-STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
