@@ -1,13 +1,14 @@
 <!-- templates/post_detail.html -->
-
 {% extends 'base.html' %}
+
+{% load markdown_extras %}
 
 {% block content %}
 
 <div class="post-entry">
     <h2>{{ object.title }}</h2>
     <p>by {{ object.author }} | {{ object.date }}</p>
-    <p>{{ object.body }}</p>
+    <p>{{ object.body | markdown | safe }}</p>
 </div>
 
 <p><a href="{% url 'post_edit' post.pk %}">Edit</a> | <a href="{% url 'post_delete' post.pk %}">Delete</a></p>

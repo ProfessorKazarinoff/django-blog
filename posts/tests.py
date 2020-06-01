@@ -28,7 +28,7 @@ class PostsNewPageTest(TestCase):
         self.assertTemplateUsed("post_new.html")
 
 
-class PostsNewFormTest(TestCase):
+class PostsNewUpdateDeleteTest(TestCase):
     def setUp(self):
         self.user = get_user_model().objects.create_user(
             username="testuser", email="testuser@email.com", password="secret"
