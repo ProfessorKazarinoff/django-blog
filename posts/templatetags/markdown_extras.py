@@ -7,14 +7,17 @@ import markdown as md
 
 register = template.Library()
 
+
 @register.filter
 @stringfilter
 def markdown(value):
-    return md.markdown(value,
+    return md.markdown(
+        value,
         extensions=[
-            'markdown.extensions.fenced_code',
-            'markdown.extensions.tables',
-            'markdown.extensions.admonition',
-            'markdown.extensions.codehilite',
-            'markdown.extensions.toc',
-            ])
+            "markdown.extensions.fenced_code",
+            "markdown.extensions.tables",
+            "markdown.extensions.admonition",
+            "markdown.extensions.codehilite",
+            "markdown.extensions.toc",
+        ],
+    )

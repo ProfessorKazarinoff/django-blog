@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "users.apps.UsersConfig",
     # 3rd party
     "crispy_forms",
+    "django_bleach",
     # django
     "django.contrib.admin",
     "django.contrib.auth",
