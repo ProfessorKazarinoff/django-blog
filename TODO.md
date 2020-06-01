@@ -19,9 +19,6 @@
 ## Users
 - [x] Custom User Model
 - [x] Signup Functionality Working
-- [ ] Password change
-- [ ] Password reset
-- [ ] Password forget email functionality
 - [ ] Logged in shown in menu bar
 - [ ] New post link shown when logged in
 - [ ] Auto-author based one logged-in user
@@ -37,7 +34,8 @@
 - [ ] Add favicon
 
 ## Post Writing
-- [ ] Markdown in post creation form, and render in template
+- [x] Markdown in post creation form, and render in template
+- [ ] Markdown tables look like actual tables
 
 ## Images
 - [ ] Small image in post summary on post list page
