@@ -8,6 +8,9 @@
 <div class="post-entry">
     <h2>{{ object.title }}</h2>
     <p>by {{ object.author }} | {{ object.date }}</p>
+    {% if object.image %}
+        <img src="{{ object.image.url }}" alt="{{ object.title }}">
+    {% endif %}
     <p>{{ object.body | markdown | safe }}</p>
 </div>
 

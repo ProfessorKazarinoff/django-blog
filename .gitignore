@@ -284,3 +284,6 @@ fabric.properties
 
 # Django local sqlite database
 db.sqlite3
+
+# local store of images related to posts
+media/images/
