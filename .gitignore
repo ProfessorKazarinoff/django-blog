@@ -287,3 +287,4 @@ db.sqlite3
 
 # local store of images related to posts
 media/images/
+media/
