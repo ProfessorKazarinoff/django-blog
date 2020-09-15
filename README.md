@@ -13,5 +13,6 @@ python manage.py migrate
 python manage.py createsuperuser
 mkdir media
 mkdir media/images
+python manage.py collectstatic
 python manage.py runserver
 ```
