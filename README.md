@@ -8,6 +8,7 @@ Repo for the code to a Django blog for my daughter. Follows Will Vincent's book 
 clone repo, create virtual env, install requirements.txt
 
 ```
+cp .env-example .env   # insert SECRET_KEY in .env file
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
