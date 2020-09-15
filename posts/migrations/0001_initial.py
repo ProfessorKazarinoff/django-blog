@@ -27,5 +27,5 @@ class Migration(migrations.Migration):
                 ("summary", models.TextField()),
                 ("date", models.DateTimeField(auto_now_add=True)),
             ],
-        ),
+        )
     ]

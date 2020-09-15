@@ -70,7 +70,7 @@ class PostsNewUpdateDeleteTest(TestCase):
     def test_post_update_view(self):
         response = self.client.post(
             reverse("post_edit", args="1"),
-            {"title": "Updated Title", "body": "Updated text",},
+            {"title": "Updated Title", "body": "Updated text"},
         )
         self.assertEqual(response.status_code, 200)
 

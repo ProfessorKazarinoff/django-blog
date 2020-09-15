@@ -20,12 +20,7 @@ class PostDetailView(DetailView):
 
 class PostUpdateView(UpdateView):
     model = Post
-    fields = (
-        "title",
-        "image",
-        "summary",
-        "body",
-    )
+    fields = ("title", "image", "summary", "body")
     template_name = "post_edit.html"
 
 
