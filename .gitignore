@@ -286,10 +286,14 @@ fabric.properties
 db.sqlite3
 
 # local store of images related to posts
+# before running development server: mkdir media && mkdir media/images
 media/images/
 media/
 
 # virtual env
 venv/
 env/
+.env
 
+# after python manage.py collectstatic is run
+staticfiles/
